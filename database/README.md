@@ -1,5 +1,10 @@
 # Database (PostgreSQL)
 
+## Agreed PostgreSQL port
+
+This project’s PostgreSQL instance is configured to listen on **port 5000** (see `startup.sh` and runtime `pg_isready` checks).
+All connection strings/env files in this repository should use **5000** consistently.
+
 Connection (from `db_connection.txt`):
 
 - `psql postgresql://appuser:dbuser123@localhost:5000/myapp`

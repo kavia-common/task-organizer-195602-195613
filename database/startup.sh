@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Minimal PostgreSQL startup script with full paths
+# NOTE: This container is intended to run PostgreSQL on port 5000.
+# Keep db_connection.txt and db_visualizer/postgres.env aligned with DB_PORT.
 DB_NAME="myapp"
 DB_USER="appuser"
 DB_PASSWORD="dbuser123"
